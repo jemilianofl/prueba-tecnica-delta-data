@@ -96,6 +96,16 @@ td button:nth-child(2) {
     color: white;
 }
 
+td.aprobado {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+td.preaprobado {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
 canvas {
     margin-top: 20px;
     width: 100%;

@@ -58,3 +58,12 @@ pip install -r requirements.txt
 
 # 4. Ejecutar aplicación
 python app.py
+```
+
+## Nueva funcionalidad agregada
+
+- Se separaron las tablas de clientes y de creditos, un cliente puede tener varios creditos pero los creditos solo pertenecen a su cliente.
+
+- Se agrego en las graficas y tabla, la funcionalidad de separar creditos aprobados y preaprobados, esto significa que si un cliente tiene un credito que aun no ha terminado de pagar si solicita otro o se agrega uno nuevo, este pasara a un estado preaprobado, hasta que no se elimine o se termine la deuda.
+
+![Funcionalidad](snapshots/nueva_funcionalidad.png)
